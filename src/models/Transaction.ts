@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { uuid } from 'uuidv4';
 
 class Transaction {
@@ -15,6 +16,7 @@ class Transaction {
     this.value = value;
     this.type = type;
   }
+
 }
 
 export default Transaction;
